@@ -3,12 +3,12 @@ package fr.afpa.utils;
 /**
  * The type Calcul exception.
  */
-public class calculException extends Exception {
+public class CalculException extends Exception {
 
     /**
      * Instantiates a new Calcul exception.
      */
-    public calculException() {
+    public CalculException() {
     }
 
     /**
@@ -16,7 +16,7 @@ public class calculException extends Exception {
      *
      * @param message the message
      */
-    public calculException(String message) {
+    public CalculException(String message) {
         super(message);
     }
 }
