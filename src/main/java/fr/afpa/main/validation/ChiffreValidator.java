@@ -12,6 +12,8 @@ public class ChiffreValidator implements Validator<String> {
 
 		final int intATester;
 
+		erreurs.clear();
+
 		if (input == null || input.isBlank()) {
 
 			erreurs.add("Veuillez entrer un entier positif");
